@@ -7,4 +7,5 @@ else
    now=$(date)
    git add .
    git commit -m "Automate commit at $now"
+   git push origin master
 fi 
